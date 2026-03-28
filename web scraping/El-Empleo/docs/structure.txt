@@ -1,0 +1,49 @@
+practical-solutions/
+├── .gitignore                 # Protege credenciales de toda la carpeta raíz y subproyectos
+└── web-scraping/
+    └── el-empleo/
+        ├── .env               # Guarda tu correo y contraseña de forma local y segura
+        ├── config/            # Carpeta para datos de ejecución
+        │   └── sesion.json    # Archivo de sesión generado automáticamente
+        ├── autenticacion.py   # Módulo independiente para gestionar el acceso
+        └── orquestador.py     # Script principal que coordina todo el proceso
+
+
+⚙️ Diseño del Proyecto: Módulo de Autenticación (Independiente)
+
+├── Métodos Públicos (Orquestación y validación externa):
+│   ├── generar_sesion()           # Crea y guarda el estado de acceso.
+│   ├── validar_estado_sesion()    # Comprueba la vigencia de la sesión actual.
+│   └── ejecutar_autenticacion()   # Coordina la validación y generación automática.
+│
+└── Métodos Privados (Lógica interna):
+    ├── _aceptar_cookies()         # Oculta el banner de políticas si aparece.
+    └── _ingresar_credenciales()   # Inyecta los datos de acceso y envía el formulario.
+
+
+⚙️ Diseño del Proyecto: Módulo de Extracción (Con Memoria Histórica)
+
+├── Métodos Públicos (Orquestación):
+│   └── ejecutar_extraccion()               # Coordina la extracción, inicializando primero los IDs ya gestionados.
+│
+└── Métodos Privados (Lógica interna):
+    ├── _normalizar_lista()                 # Convierte tus listas de tags y cargos a minúsculas.
+    ├── _cargar_historial_postulaciones()   # NUEVO: Lee todos los CSV de la carpeta 'postulaciones' y extrae sus IDs.
+    ├── _construir_url_busqueda()           # Ensambla el enlace exacto según el término y página.
+    ├── _aceptar_cookies_si_existen()       # Verifica y cierra el banner de políticas.
+    ├── _calcular_total_paginas()           # Lee el número de resultados para la paginación.
+    ├── _extraer_datos_tarjeta()            # Saca la información desde el HTML de la tarjeta.
+    ├── _obtener_categoria()                # Clasifica la oferta en uno de los 4 cuadrantes.
+    └── _exportar_csv()                     # Genera los 4 archivos finales solo con las ofertas realmente nuevas.
+
+⚙️ Diseño del Proyecto: Módulo de Postulación (Fase 1)
+
+├── Métodos Públicos (Orquestación):
+│   └── ejecutar_postulacion()            # Coordina la lectura, validación, navegación y registro de resultados.
+│
+└── Métodos Privados (Lógica interna):
+    ├── _preparar_archivos_historial()    # Crea los CSV de aplicadas, rechazadas y no exitosas si no existen.
+    ├── _cargar_ofertas_pendientes()      # Cruza los datos nuevos con el historial (usando el nuevo índice de URL).
+    ├── _validar_estado_sesion()          # Verifica que sesion.json exista antes de abrir el navegador.
+    ├── _procesar_oferta_individual()     # Navega a la URL y evalúa exclusivamente el primer selector de botón.
+    └── _guardar_resultado()              # Registra la oferta procesada en su archivo correspondiente.
