@@ -1,0 +1,8 @@
+{
+  "¿Cuantos años de experiencia tienes en middleware?": "+10 años en integración con APIs, eventos y microservicios",
+  "¿Tiene dominio experto en el desarrollo de triggers, clases controladoras, procesos batch, schedulables y servicios web (REST/SOAP)? ¿Cuanto tiempo tiene de experiencia?": "Si, +10 años desarrollando APIs REST, SOAP y procesos backend",
+  "¿Cuanto tiempo tiene de experiencia consumiendo y exponiendo APIs para la comunicación con sistemas externos (Data Lakes, ERPs, sistemas legacy)?": "+10 años integrando APIs con ERPs y sistemas legacy",
+  "¿Qué nivel tienes en SQL y qué tipo de consultas complejas has realizado?": "SQL avanzado, experiencia en optimización, joins complejos, CTEs y modelado de datos",
+  "¿Has usado Python para automatizar procesos o reportes? Da un ejemplo breve.": "Sí, automatización de ETL y generación de reportes usando Python y Databricks",
+  "Cual de estos lenguajes maneja: Python (pandas, PySpark, dbt), SQL avanzado, Bash. Familiaridad con Scala o Java para procesamiento distribuido.": "Todos, SQL avanzado, Python para datos y experiencia en Databricks y Azure Data Factory",
+}

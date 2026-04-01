@@ -1,0 +1,218 @@
+{
+  "informacion_personal": {
+    "contact_number": {
+      "patterns": [
+        "numero de contacto",
+        "numero de celular",
+        "whatsapp",
+        "telefono"
+      ],
+      "response": "3507776043"
+    },
+    "location": {
+      "patterns": [
+        "donde vives",
+        "ciudad",
+        "lugar de residencia"
+      ],
+      "response": "Bogotá"
+    },
+    "education_level": {
+      "patterns": [
+        "nivel academico",
+        "formacion academica",
+        "titulo profesional",
+        "nivel educativo"
+      ],
+      "response": "Ingeniero de Sistemas"
+    },
+    "english_level": {
+      "patterns": [
+        "nivel de ingles",
+        "ingles",
+        "entornos bilingues"
+      ],
+      "response": "Nivel intermedio B1"
+    },
+    "experience_general": {
+      "patterns": [
+        "años de experiencia",
+        "experiencia en desarrollo",
+        "arquitectura de software"
+      ],
+      "response": "Más de 10 años en desarrollo y arquitectura de software"
+    },
+    "leadership_experience": {
+      "patterns": [
+        "liderando equipos",
+        "liderazgo",
+        "gestion de equipos",
+        "cuantas personas a cargo"
+      ],
+      "response": "Más de 8 años liderando equipos de entre 7 y 20 personas"
+    },
+    "availability": {
+      "patterns": [
+        "disponibilidad",
+        "cuando puede ingresar",
+        "fecha de ingreso"
+      ],
+      "response": "Disponibilidad inmediata"
+    },
+    "work_modality": {
+      "patterns": [
+        "hibrido",
+        "presencial",
+        "remoto",
+        "traslado",
+        "viajar"
+      ],
+      "response": "Sin inconvenientes con modalidad híbrida, presencial o traslado"
+    },
+    "salary_expectation": {
+      "patterns": [
+        "aspiracion salarial",
+        "expectativa salarial",
+        "pretension salarial"
+      ],
+      "response": "Abierto a una oferta alineada al rol, responsabilidades y condiciones del mercado"
+    }
+  },
+
+  "perfil_profesional": {
+    "programming_languages": {
+      "patterns": [
+        "lenguajes de programacion",
+        "tecnologias",
+        "stack tecnico",
+        "dotnet"
+      ],
+      "response": "C#, .NET, SQL, Python, JavaScript y TypeScript, con más de 15 años en el ecosistema .NET"
+    },
+    "cloud_experience": {
+      "patterns": [
+        "cloud",
+        "azure",
+        "aws",
+        "infraestructura",
+        "hibrida",
+        "on premise"
+      ],
+      "response": "Más de 10 años en cloud e infraestructura híbrida, principalmente en Azure"
+    },
+    "data_experience": {
+      "patterns": [
+        "bases de datos",
+        "persistencia",
+        "modelamiento",
+        "sql",
+        "nosql"
+      ],
+      "response": "Más de 10 años en modelamiento de datos, bases relacionales y experiencia en NoSQL"
+    },
+    "sql_optimization": {
+      "patterns": [
+        "optimizacion sql",
+        "consultas",
+        "performance sql"
+      ],
+      "response": "Más de 15 años optimizando consultas SQL y trabajando con alto volumen de datos"
+    },
+    "data_architecture": {
+      "patterns": [
+        "data lake",
+        "arquitectura de datos",
+        "ingenieria de datos"
+      ],
+      "response": "Alrededor de 5 años en arquitectura de datos y soluciones sobre Data Lakes"
+    },
+    "devops_tools": {
+      "patterns": [
+        "jira",
+        "azure devops",
+        "herramientas agiles",
+        "backlog",
+        "ci cd"
+      ],
+      "response": "Experiencia con Jira, Azure DevOps y herramientas ágiles para gestión y CI/CD"
+    },
+    "qa_experience": {
+      "patterns": [
+        "qa",
+        "calidad",
+        "testing",
+        "pruebas"
+      ],
+      "response": "Experiencia liderando procesos de calidad y buenas prácticas de testing"
+    },
+    "project_management": {
+      "patterns": [
+        "gestion de proyectos",
+        "scrum",
+        "scrum master",
+        "metodologias agiles"
+      ],
+      "response": "Experiencia liderando proyectos en entornos ágiles, sin certificación formal"
+    },
+    "apis_architecture": {
+      "patterns": [
+        "apis",
+        "microservicios",
+        "arquitectura",
+        "integraciones"
+      ],
+      "response": "Más de 10 años diseñando arquitecturas, APIs y microservicios empresariales"
+    },
+    "containers": {
+      "patterns": [
+        "docker",
+        "kubernetes",
+        "contenedores"
+      ],
+      "response": "Alrededor de 5 años trabajando con Docker y Kubernetes en entornos cloud"
+    },
+    "python_data": {
+      "patterns": [
+        "python",
+        "etl",
+        "automatizacion",
+        "procesos de datos"
+      ],
+      "response": "Uso de Python para ETL, automatización e integración de datos"
+    },
+    "aws_experience": {
+      "patterns": [
+        "aws",
+        "amazon web services"
+      ],
+      "response": "Conocimiento en AWS con capacidad de adaptación, principal enfoque en Azure"
+    },
+    "sector_experience": {
+      "patterns": [
+        "sectores",
+        "empresas",
+        "donde has trabajado",
+        "experiencia laboral"
+      ],
+      "response": "Experiencia en sectores salud, financiero y tecnología en empresas como TCS, Falck/EMI, Ventus y W2D"
+    },
+    "financial_sector": {
+      "patterns": [
+        "sector financiero",
+        "fintech"
+      ],
+      "response": "Experiencia en el sector financiero"
+    }
+  },
+
+  "condiciones_laborales": {
+    "temporary_contract": {
+      "patterns": [
+        "licencia de maternidad",
+        "temporal",
+        "6 meses"
+      ],
+      "response": "Sin inconveniente con contratos temporales"
+    }
+  }
+}

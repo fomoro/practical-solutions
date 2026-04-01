@@ -1,0 +1,9 @@
+{
+    "Mencione cuál de las certificaciones técnicas descritas en los requisitos posee": "No cuento con certificaciones Cisco, enfoque en arquitectura cloud y Microsoft",
+    "Cuentas con alguna de estas certificaciones:": "Ninguna",
+    "¿Qué herramientas de Power Platform manejas y en qué las has aplicado?": "Power BI y Power Automate para analítica, dashboards y automatización de procesos",
+    "¿Cuanto tiempo tiene de experiencia como Salesforce Developer (LWC & Mobile Specialist)?": "Sin experiencia en Salesforce, enfoque en .NET y Azure",
+    "¿Cuanto tiempo tiene de experiencia optimizando interfaces y flujos de trabajo específicamente para la App Móvil de Salesforce?": "Sin experiencia en Salesforce móvil",
+    "¿Cuanto tiempo tiene de experiencia avanzada y demostrable en la creación de componentes personalizados bajo el modelo de programación moderno de Salesforce (ES6+, manejo de eventos, decoradores, composición de componentes)?": "Sin experiencia en Salesforce, 10 años en desarrollo moderno con .NET y JavaScript",
+    "¿Cuenta con conocimientos sólidos en la configuración y desarrollo para entornos de baja conectividad, incluyendo el uso de herramientas como Salesforce Briefcase y la gestión de caché de datos en dispositivos? ¿Cuanto tiempo tiene de experiencia?": "Experiencia en caché y resiliencia con Redis, no uso Salesforce Briefcase",
+}

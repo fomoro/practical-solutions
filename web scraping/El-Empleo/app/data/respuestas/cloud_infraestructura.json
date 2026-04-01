@@ -1,0 +1,13 @@
+{
+  "¿Cuantos años de experiencia tienes en la parte de infraestructura ?": "+6 años en infraestructura cloud y arquitecturas híbridas en Azure",
+  
+  "¿Cuantos años de experiencia tienes en AWS?": "Experiencia básica en AWS, porque mi enfoque principal ha sido en Azure con +6 años",
+  "¿Tiene experiencia como ingeniero de datos en entornos nube AWS?": "Experiencia básica en AWS, porque mi enfoque principal ha sido en Azure con +6 años",
+
+  "¿Cuantos años de experiencia tienes en Apache2 y Kubernetes ?": "+5 años en contenedores y Kubernetes administrado (AKS)",
+  "¿Cuantos años de experiencia tienes en JBoss (versiones 4.3 a 7.3 / 5.2 a 6.4)?": "Experiencia indirecta porque mi dominio es servidores de aplicaciones Microsoft",
+  "¿Cuantos añps de experiencia tienes en Linux y JasperReports ?": "Experiencia básica en Linux y fuerte en herramientas Microsoft de analítica",
+  "¿ Cuantos años de experiencia tienes en Docker y WordPress?": "+5 años usando Docker, y algunas implementaciones en WordPress",
+  
+  "¿Tienes experiencia con Snowflake? (Sí/No – explica brevemente)": "No, porque mi enfoque principal es en Azure en plataformas de datos como Azure Data Factory y Databricks",
+}

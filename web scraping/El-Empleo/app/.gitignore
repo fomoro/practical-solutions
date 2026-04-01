@@ -1,0 +1,18 @@
+# Entornos virtuales locales
+venv/
+env/
+.venv/
+
+# Variables de entorno y secretos locales
+.env
+config/sesion.json
+
+# Datos dinámicos del bot (CSVs y JSONs generados)
+data/ofertas_scraped/
+data/ofertas_postuladas/
+data/preguntas/preguntas_pendientes.json
+
+# Caché de Python y logs
+__pycache__/
+*.py[cod]
+*.log
